@@ -45,7 +45,10 @@ class TicTacMode extends Component {
               >
                 3x3
               </Button>
-              <Button
+              {/**
+                * REMOVED 4X4 AND 5X5 BY NOW WORK IN PROGRESS
+              */}
+              {/* <Button
                 variant="danger"
                 className="mode-button"
                 onClick={() => this.modeSelected(4)}
@@ -58,7 +61,7 @@ class TicTacMode extends Component {
                 onClick={() => this.modeSelected(5)}
               >
                 5x5
-              </Button>
+              </Button> */}
             </Row>
           </Form.Group>
         </Form>
