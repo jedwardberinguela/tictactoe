@@ -1,14 +1,15 @@
-.App {
+.text-center {
   text-align: center;
 }
 
-.App-logo {
+.logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+  margin-bottom: 20px;
 }
 
-.App-header {
+.header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,10 +18,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-top: 0px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.start-game-btn {
+  margin-top: 10px;
+  border-color: #148992 !important;
+  background-color: #148992 !important;
+  color: #fff !important;
+  width: 150px;
+  font-weight: bold !important;
 }
 
 @keyframes App-logo-spin {

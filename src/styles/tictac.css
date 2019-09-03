@@ -1,0 +1,32 @@
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 0px !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mode-button {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
